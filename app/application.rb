@@ -3,7 +3,7 @@ class Application
     resp = Rack::Response.new
     req = Rack::Request(env)
     
-    if req.path 
+    if req.path==
       item_name
       
   end
