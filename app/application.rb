@@ -11,6 +11,8 @@ class Application
       
       if item=@@items.find(|i| i == item_name)
         resp.write item.price
+      else
+        
       end
     end
       
