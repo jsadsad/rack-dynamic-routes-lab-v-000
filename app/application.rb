@@ -3,7 +3,8 @@ class Application
     resp = Rack::Response.new
     req = Rack::Request(env)
     
-    if req.path.match()
+    if req.path.match(/items/)
+      
       
   end
 end
