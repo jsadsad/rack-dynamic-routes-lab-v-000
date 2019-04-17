@@ -12,7 +12,8 @@ class Application
       if item=@@items.find(|i| i == item_name)
         resp.write item.price
       else
-        
+        resp.status = 400
+        resp.write
       end
     end
       
